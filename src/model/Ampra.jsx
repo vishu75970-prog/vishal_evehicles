@@ -1,5 +1,7 @@
 import React from "react";
 import ampra from "../assets/4.webp";
+import { Link } from "react-router-dom";
+import contact from "../pages/Contact";
 
 function Ampra() {
   return (
@@ -83,9 +85,11 @@ function Ampra() {
             </div>
 
             {/* Button */}
+            <Link to="../contact">
             <button className="btn btn-success btn-lg px-5 mt-4 shadow">
-              Book   Now
+              Book Now
             </button>
+            </Link>
 
           </div>
 

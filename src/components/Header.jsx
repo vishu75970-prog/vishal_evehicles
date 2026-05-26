@@ -20,7 +20,7 @@ function Header() {
             alt="Logo"
             className="img-fluid rounded-circle bg-white p-1 shadow"
             style={{
-              width: "70px",
+              width: "100px",
               height: "70px",
               objectFit: "contain",
             }}
@@ -67,13 +67,13 @@ function Header() {
             {/* Models Dropdown */}
             <li className="nav-item dropdown">
 
-              <a
-                className="nav-link dropdown-toggle text-white fs-5 fw-semibold px-3"
-                href="/"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                Models
+             <a
+             className="nav-link dropdown-toggle text-white fs-5 fw-semibold px-3"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             >
+              Models
               </a>
 
               <ul className="dropdown-menu border-0 shadow-lg rounded-4 p-3">

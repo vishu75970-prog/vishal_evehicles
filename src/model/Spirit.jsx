@@ -2,7 +2,7 @@ import React from "react";
 import spirit from "../assets/1.webp";
 import contact from "../pages/Contact";
 import { Link } from "react-router-dom";
-import { Popover } from "bootstrap";
+
 function Spirit() {
   return (
     <div className="bg-light py-5">
@@ -72,7 +72,7 @@ function Spirit() {
             {/* Button */}
             <Link to="../contact">
             <button className="btn btn-success btn-lg px-5 mt-4 shadow">
-              Explore More
+              Book Now
             </button>
             </Link>
 

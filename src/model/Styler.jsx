@@ -1,5 +1,7 @@
 import React from "react";
 import styler from "../assets/6.webp";
+import { Link } from "react-router-dom";
+import contact from "../pages/Contact";
 
 function Styler() {
   return (
@@ -86,9 +88,11 @@ function Styler() {
             </div>
 
             {/* Button */}
+            <Link to="../contact">
             <button className="btn btn-success btn-lg px-5 mt-4 shadow">
-              Explore More
+              Book Now
             </button>
+            </Link>
 
           </div>
 

@@ -1,5 +1,7 @@
 import React from "react";
 import venice from "../assets/7.webp";
+import { Link } from "react-router-dom";
+import contact from "../pages/Contact";
 
 function Venice() {
   return (
@@ -68,9 +70,11 @@ function Venice() {
             </div>
 
             {/* Button */}
+            <Link to="../contact">
             <button className="btn btn-success btn-lg px-5 mt-4 shadow">
-              Explore More
+              Book Now
             </button>
+            </Link>
 
           </div>
 

@@ -1,5 +1,7 @@
 import React from "react";
 import drifty from "../assets/5.png";
+import { Link } from "react-router-dom";
+import contact from "../pages/Contact";
 
 function Drifty() {
   return (
@@ -67,9 +69,11 @@ function Drifty() {
             </div>
 
             {/* Button */}
+            <Link to="../contact">
             <button className="btn btn-success btn-lg px-5 mt-4 shadow">
-              Explore More
+              Book Now
             </button>
+            </Link>
 
           </div>
 

@@ -1,5 +1,7 @@
 import React from "react";
 import spiritplus from "../assets/2.png";
+import { Link } from "react-router-dom";
+import contact from "../pages/Contact";
 
 function Spiritplus() {
   return (
@@ -87,9 +89,11 @@ function Spiritplus() {
             </div>
 
             {/* Button */}
+            <Link to="../contact">
             <button className="btn btn-success btn-lg px-5 mt-4 shadow">
-              Explore More
+              Book Now
             </button>
+            </Link>
 
           </div>
 
